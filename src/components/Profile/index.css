@@ -11,13 +11,6 @@
   background-color: #181818;
 }
 
-.user-icon {
-  height: 250px;
-  width: 250px;
-  margin: 10px 5px 10px 5px;
-  border: 2px circle #ffffff;
-}
-
 .user-name {
   color: #dddddd;
   font-size: 24px;
@@ -133,4 +126,8 @@
     width: 110px;
     height: 40px;
   }
+}
+.user-icon {
+  height: 150px;
+  width: 100px;
 }

@@ -16,7 +16,7 @@ class NavBar extends Component {
 
   onClickRedirectHome = () => {
     const {history} = this.props
-    history.replace('/')
+    history.replace('/profile')
   }
 
   RenderMenuButton = () => (

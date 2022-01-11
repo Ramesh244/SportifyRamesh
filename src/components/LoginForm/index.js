@@ -85,13 +85,12 @@ class LoginForm extends Component {
       return 'http://localhost:3000/login'
     }
     /* Change this redirectURL accordingly before publishing your project and ADD THIS URL to your Application Redirect URIs to redirect after authentication success OR failure */
-    return 'https://sportifyRamesh4.ccbp.tech/login'
+    return 'https://sportifyremix.ccbp.tech/login'
   }
 
   openLoginModal = () => {
     // YOU NEED TO ADD YOUR CLIENT ID HERE
-    const clientId = 'dddf07a1390340f7b33394cef5231760'
-
+    const clientId = '92dfe67aa04b4c048faed56b914b7947'
     const redirectUrl = this.getRedirectURL()
 
     const url = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${redirectUrl}&scope=user-read-private%20user-read-email%20playlist-read-private%20playlist-modify-public%20playlist-modify-private%20user-library-read%20user-library-modify%20user-follow-read%20user-follow-modify&state=34fFs29kd09&show_dialog=true`
